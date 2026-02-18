@@ -66,3 +66,35 @@ let student1 : Student = {
 }
 
 console.log(student1);
+
+
+// Type Aliases
+// Similar to interfaces but more flexible:
+
+type ID = string | number;
+let userID : ID = "123abd";
+let adminID : ID = 1229990;
+
+// console.log(userID)
+// console.log(adminID)
+
+/*
+ Union & Literal Types
+*/
+//Union lets a variable hold multiple types:
+
+let score : number | string
+score = 90
+score ="A+"
+
+// console.log(` score ${score}`)
+
+// Literal types restrict exact values:
+
+let direction : "Up" | "down" | "left" | "right";
+
+direction = "Up";
+//direction ="forword"; // here is error 
+
+console.log(direction)
+

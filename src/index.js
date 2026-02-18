@@ -39,3 +39,20 @@ var student1 = {
     isActive: true
 };
 console.log(student1);
+var userID = "123abd";
+var adminID = 1229990;
+// console.log(userID)
+// console.log(adminID)
+/*
+ Union & Literal Types
+*/
+//Union lets a variable hold multiple types:
+var score;
+score = 90;
+score = "A+";
+// console.log(` score ${score}`)
+// Literal types restrict exact values:
+var direction;
+direction = "Up";
+//direction ="forword"; // here is error 
+console.log(direction);
