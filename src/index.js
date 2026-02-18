@@ -55,4 +55,12 @@ score = "A+";
 var direction;
 direction = "Up";
 //direction ="forword"; // here is error 
-console.log(direction);
+// console.log(direction)
+/*
+Type Assertion
+*/
+// It doesn’t change the value at runtime, it just helps the compiler understand the type.
+var someValue = "Hello TS";
+// We know this is a string, so we assert it
+var strLength = someValue.length;
+console.log(strLength); // 8

@@ -96,5 +96,16 @@ let direction : "Up" | "down" | "left" | "right";
 direction = "Up";
 //direction ="forword"; // here is error 
 
-console.log(direction)
+// console.log(direction)
 
+/*
+Type Assertion
+*/
+// It doesn’t change the value at runtime, it just helps the compiler understand the type.
+
+let someValue: any = "Hello TS";
+
+// We know this is a string, so we assert it
+let strLength: number = (someValue as string).length;
+
+console.log(strLength); // 8
