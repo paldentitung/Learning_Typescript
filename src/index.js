@@ -33,3 +33,9 @@ function greet(name) {
 var result = add(9, 10);
 greet("Palden Dorje Titung");
 console.log("result", result);
+var student1 = {
+    name: "Palden Dorje Titung",
+    age: 19,
+    isActive: true
+};
+console.log(student1);

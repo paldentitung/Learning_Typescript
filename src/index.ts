@@ -39,6 +39,7 @@ console.log(favoriteColor);
 function add(a : number,b: number):number{
     return a+b
 }
+
 function greet(name:string):void{
     console.log("Hello",name)
 }
@@ -48,3 +49,20 @@ let result = add(9,10)
 greet("Palden Dorje Titung")
 
 console.log("result",result)
+
+
+// Interfaces
+// Interfaces define the structure of an object
+interface Student {
+    name:string,
+    age:number,
+    isActive:boolean
+}
+
+let student1 : Student = {
+    name:"Palden Dorje Titung",
+    age:19,
+    isActive:true
+}
+
+console.log(student1);
